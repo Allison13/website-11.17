@@ -33,23 +33,62 @@
            <!--Form------------------------------------------------------------->
                 <img src="../img/LogoIdea" class="logo" width="200" height="100">
             </header>
+      <!--Table------------------------------------------------------------------------------------------------------->
+    <table>
+      <tr class="tablehead">
+      <td>Product</td>
+      <td >Price</td>
+      <td >Info</td>
+      </tr>
+      <tr class="info">
+      <td>Psyduck</td>
+        <td >$20</td>
+        <td >Roughly 7 inches in height</td>
+      </tr>
+      <tr class="info">
+      <td>PSS</td>
+        <td>$5</td>
+        <td>A Key Chain</td>
+      </tr>
+        <tr class="info">
+      <td>Luna Moon</td>
+        <td>$10</td>
+        <td>A symbol to support a lost life</td>
+      </tr>
+        <tr class="info">
+      <td>Scarletrope</td>
+        <td>$10</td>
+        <td>A Sign for the Scarletrope Project</td>
+      </tr>
+        <tr class="info">
+      <td>Loki helment</td>
+        <td>$10-$15</td>
+        <td>A wearable helment(The Price depends on the size)</td>
+      </tr>
+        <tr class="info">
+      <td>Loki Alligator </td>
+        <td>$15</td>
+        <td>A figure of the Loki Alligator</td>
+      </tr>
+    </table>
+     <!--Table-------------------------------------------------------------------------->
           <section class="OS">
             <div class="OS-text">
               <form id="OF" action="order.html" method="post">
                   <h1 class="page-header">Order Sheet</h1>
                   
              <!--Consumer Info---------------------------------------------------------------------------------------------------------->
-                          <label for="FN">First Name:</label><input type="text" placeholder="John"class="name" id="FN" name="user_name"><br>  
+                          <label for="FN">First Name:</label><input type="text" placeholder="John"class="name os" id="FN" name="user_name"><br>  
                          
-                           <label for="LN"> Last Name:</label><input type="text" placeholder="Holdenstamen" class="name" id="LN" name="user_name"><br>
+                           <label for="LN"> Last Name:</label><input type="text" placeholder="Holdenstamen" class="os" class="name" id="LN" name="user_name"><br>
                         
                        
-                            <label for="SA">Shipping Address:</label><input type="text" placeholder="655 North St.Bridgeport, CT 06606" id="SA" SA="Address"><br>
+                            <label for="SA" >Shipping Address:</label><input type="text" placeholder="655 North St.Bridgeport, CT 06606" class="os" id="SA" SA="Address"><br>
                <!--/Consumer Info------------------------------------------------------------------------------------------------------>
            
                 
                  <!--Product Info------------------------------------------------------------------------------------------------------>
-                          <label for"product">Product:</label><select placeholder="Mubert" id="product"><option>Psyduck</option>
+                          <label for"product">Product:</label><select placeholder="Mubert"  class="os" id="product"><option>Psyduck</option>
           <option>Loki Helmet</option>
           <option>Luna Moon</option>
           <option>Scarletrope</option>
@@ -60,70 +99,33 @@
                      <br>
                     
                  <h4>(If keychain customize it yourself)</h4>
-                <input type="text" Placeholder="Iron Man Theme" id="braclet">               <label for="braclet">Braclet Theme:</label>(Character/theme)
-                    
-                      
+                        <label for="braclet">Keychain text:</label> <input type="text" Placeholder="PSS" class="os"id="text">      
+                      <br>
+                <br>
                      <label for="product-color">Product Color:</label> 
                     <h4>(Only Color per Product)</h4>
                     <div id="product-color">
-                     <label for="productcolor">Product Color</label>
-                                      <select>
-                                      <option class="red">Red</option>
-                                        <option class="orange">Orange</option>
-                                        <option class="green">Green</option>
-                                        <option class="blue">Blue</option>
-                                        <option class="black">Black</option>
-                                        <option class="white">White</option>
-                                        <option class="yellow">Yellow</option>
+                     <label for="productcolor" class="os">Product Color</label>
+                                      <select class="os">
+                                      <option>Red</option>
+                                        <option>Orange</option>
+                                        <option>Green</option>
+                                        <option>Blue</option>
+                                        <option>Black</option>
+                                        <option>White</option>
+                                        <option>Yellow</option>
                                       </select>
                                   </div>
                  <!--/Product Info--------------------------------------------------------------------------------------------------------->
-             <button type="submit" id="button">Submit</button>
+                <br>
+             <button type="submit" id="button" class="os">Submit</button>
           </form>
         </div>
           </section>
      <!--/Form------------------------------------------------------------------------------------------------------------------------------------------>
     
     
-     <!--Table------------------------------------------------------------------------------------------------------->
-    <table>
-      <tr>
-      <td>Product</td>
-      <td >Price</td>
-      <td >Info</td>
-      </tr>
-      <tr>
-      <td>Psyduck</td>
-        <td >$20</td>
-        <td >Roughly 7in in height</td>
-      </tr>
-      <tr>
-      <td>PSS</td>
-        <td>$5</td>
-        <td>A Key Chain</td>
-      </tr>
-        <tr>
-      <td>Luna Moon</td>
-        <td>$10</td>
-        <td>A symbol to support a lost life</td>
-      </tr>
-        <tr>
-      <td>Scarletrope</td>
-        <td>$10</td>
-        <td>A Sign for the Scarletrope Project</td>
-      </tr>
-        <tr>
-      <td>Loki helment</td>
-        <td>$10-$15</td>
-        <td>A wearable helment(The Price depends on the size)</td>
-      </tr>
-        <tr>
-      <td>Loki Alligator </td>
-        <td>$15</td>
-        <td>A figure of the Loki Alligator</td>
-      </tr>
-    </table>
-     <!--Table-------------------------------------------------------------------------->
+   
     
      <!--Footer---------------------------------------------------------------------------------->
      <footer>
