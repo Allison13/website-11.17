@@ -106,27 +106,29 @@ font-family: 'Newsreader', serif;
   .OS{
     width:90%;
     height:90%;
-    font-size: 30px;
   }
   .bl{
     display:block;
     width:100%;
     height:50px;
-    font-size: 30px;
   }
-  table{
-  font-size: 40px;
-  }
-  .os{
+
+@media only screen and (min-width: 900px){
+.os, .OS, .bl{
   font-size: 30px;
   }
+      table{
+  font-size: 40px;
+  }
+
 }
 .instagram{
 width: 100px;
   height: 100px;
 }
 #SA{
-width: 500px;
+width: 400px;
+}
 }
 @media screen and (min-width: 1025px){
 body{
