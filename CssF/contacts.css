@@ -13,6 +13,7 @@ margin:0;
 .bl:hover{
 background-color: #bcd4eb;
     transform: scale(1.09);
+  transition:0.70s;
   border:1.5px #bcd4eb solid;
   border-bottom-color:#71a3d4;
   border-right-color:#71a3d4;
@@ -29,7 +30,13 @@ background-color: #0b345d;
 width: 100px;
 }
 
-.OS{
+.logo{
+border:4px solid #f4faff;
+  background-color:white;
+  border-radius:25%;
+}
+
+.OS, .contacts{
     margin: auto;
     background-color:white;
     box-shadow: 2px 2px 0 rgba(0,0,0,.15);
@@ -38,31 +45,29 @@ width: 100px;
   padding:20px 20px 20px 20px;
   margin-top:40px;
   height:80%;
-   font-family: 'Martel', 'Open Sans', sans-serif;
+   font-family: 'Open Sans', sans-serif;
   }
 li{
 font-size: 15px;
 border: 4px solid #000045;
-  width: 250px;
+  width: 225px;
   font-weight: bold;
 }
 .email2{
-width: 300px;
+width: 270px;
 }
 body{
-background-color: #d0e4f9;
+background-color: #e1eefb;
   
 }
-.header, h3, li{
+, h3, li{
 color: #000059;
-  font-family: 'Martel', serif;
-  font-weight: bold;
 }
 .header{
-background-color: #acd1f5;
+text-align:center;
+  margin:0 auto;
 border: 4px solid #000045; 
-width: 170px;
-  font-size: 30px;
+width: 170px
 }
 
 .instagram{
@@ -77,19 +82,12 @@ transition: 0.70s;
   transform:scale(1.05);
 }
 
-.logo{
-border:4px solid #f4faff;
-  background-color:white;
-  border-radius:25%;
+.email1, .email2{
+  text-decoration:none;
+  color:#6c859d;
 }
 
-.copyright{
-font-family: 'Newsreader', serif;
-}
-#name, #email{
-font-family: 'Martel', serif;
-  font-size: 12px;
-}
+
 @media screen and (max-width: 1000px){
   .OS{
     width:90%;
