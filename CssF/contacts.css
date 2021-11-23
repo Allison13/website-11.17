@@ -1,3 +1,4 @@
+/*-------------------------- START OF NAVBAR -----------------------------*/
 
 .Nav{
   text-align: center;
@@ -29,6 +30,7 @@ background-color: #0b345d;
   font-size: 20px; 
 width: 100px;
 }
+/*-------------------------- END OF NAVBAR -----------------------------*/
 
 .logo{
   display: block;
@@ -92,6 +94,7 @@ transition: 0.70s;
   color:#6c859d;
 }
 
+/*-------------------------- START OF MEDIA QUERIES -----------------------------*/
 
 @media screen and (max-width: 1000px){
   .OS{
@@ -104,3 +107,4 @@ transition: 0.70s;
     height:50px;
   }
 }
+/*-------------------------- END OF MEDIA QUERIES -----------------------------*/
