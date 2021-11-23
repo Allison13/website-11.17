@@ -11,7 +11,7 @@
 body{
 background-color: #b6cbd8;
 }
-/*nav bar*/
+/*-------------------------- START OF NAVBAR -----------------------------*/
 .Nav{
  text-align: center;
 display: inline;
@@ -43,7 +43,7 @@ background-color: #2b4150;
   font-size: 20px; 
 width: 100px;
 }
-/*nav bar*/
+/*-------------------------- END OF NAVBAR -----------------------------*/
 figcaption{
 color: #16222a;
   position: relative;
@@ -76,7 +76,7 @@ transition: 0.70s;
   margin-bottom: 10px;
 }
 
-/*photos and capitons*/
+/*-------------------------- START OF PHOTOS AND CAPTION -----------------------------*/
 .PSS{
   text-decoration:none;
   color:lightblue;
@@ -147,7 +147,9 @@ img{
   left:100px;
   text-align:center;
 }
-/*photos and capitons*/
+/*-------------------------- END OF PHOTOS AND CAPTIONS -----------------------------*/
+
+/*-------------------------- START OF MEDIA QUERIES -----------------------------*/
 
 @media screen and (max-width: 1000px){
   .OS{
@@ -159,3 +161,4 @@ img{
     width:100%;
     height:50px;
   }
+/*-------------------------- END OF MEDIA QUERIES -----------------------------*/
