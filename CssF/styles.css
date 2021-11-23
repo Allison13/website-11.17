@@ -20,6 +20,8 @@ h2{
   color:black;
     box-shadow:;
  }
+/*-------------------------- START OF NAVBAR-----------------------------*/
+
 .Nav{
   text-align: center;
 display: inline;
@@ -50,6 +52,7 @@ background-color: #adcae6;
 width: 100px;
 
 }
+/*-------------------------- END OF NAVBAR -----------------------------*/
 
 
 
@@ -57,10 +60,6 @@ body{
   background-color:#F4FFFF;
   margin-top:0;
   margin:0 auto;
-}
-
-.copyright{
-font-family: 'Newsreader', serif;
 }
 h3{
 font-family: 'Lora', serif;
@@ -100,6 +99,7 @@ background-color:#c1e3ff;
   margin-bottom: 10px;
 }
 
+/*-------------------------- START OF  BODY TEXT AND PHOTOS -----------------------------*/
 
 .printer {
   position:relative;
@@ -146,6 +146,11 @@ height:80vh;
   border:2px solid white;
   box-shadow: 1px 1px 1px #c1e3ff;
 }
+/*-------------------------- END OF  BODY TEXT AND PHOTOS -----------------------------*/
+
+
+/*-------------------------- START OF FOOTER -----------------------------*/
+
 .instagram{
 border-radius:50%;  
 }
@@ -157,6 +162,12 @@ transition: 0.70s;
   -o-transition: 0.70s;
   transform:scale(1.05);
 }
+.copyright{
+font-family: 'Newsreader', serif;
+}
+/*-------------------------- END OF FOOTER -----------------------------*/
+
+/*-------------------------- START OF MEDIA QUERIES -----------------------------*/
 
 @media screen and (max-width: 1000px){
 
@@ -194,3 +205,4 @@ footer{
     
   }
 }
+/*-------------------------- END OF MEDIA QUERIES -----------------------------*/
