@@ -1,3 +1,4 @@
+/*-------------------------- START OF NAVBAR-----------------------------*/
 .Nav{
  text-align: center;
 display: inline;
@@ -23,6 +24,17 @@ background-color: #165591;
   font-size: 20px; 
 width: 100px;
 }
+.bl:hover{
+background-color: #bcd4eb;
+    transform: scale(1.09);
+  transition:0.70s;
+  border:1.5px #bcd4eb solid;
+  border-bottom-color:#71a3d4;
+  border-right-color:#71a3d4;
+  box-shadow:1.5px 1.5px 1.5px #acc9e6;
+}
+/*-------------------------- END OF NAVBAR-----------------------------*/
+
 body{
 background-color: #a1caf1; 
 } 
@@ -42,16 +54,6 @@ background-color: #a1caf1;
 font-family: 'Vidaloka', serif;
 }
 
-.bl:hover{
-background-color: #bcd4eb;
-    transform: scale(1.09);
-  transition:0.70s;
-  border:1.5px #bcd4eb solid;
-  border-bottom-color:#71a3d4;
-  border-right-color:#71a3d4;
-  box-shadow:1.5px 1.5px 1.5px #acc9e6;
-}
-
 .instagram{
 border-radius:50%;  
 }
@@ -63,7 +65,7 @@ transition: 0.70s;
   -o-transition: 0.70s;
   transform:scale(1.05);
 }
-/*table*/
+/*-------------------------- START OF TABLE-----------------------------*/
 table{
   background-color:white;
   padding-right:10px;
@@ -89,10 +91,10 @@ font-weight: bold;
   font-family: 'Vidaloka', serif;
 }
 
-/*table*/
 #product{
 padding:1px;
 }
+/*-------------------------- END OF TABLE-----------------------------*/
 
 .logo{
   display: block;
@@ -108,6 +110,9 @@ padding:1px;
 .copyright{
 font-family: 'Newsreader', serif;
 }
+
+/*-------------------------- START OF MEDIA QUERIES-----------------------------*/
+
 @media screen and (max-width: 1000px){
   .OS{
     width:90%;
@@ -142,3 +147,4 @@ background: linear-gradient(#a1caf1, #e5f1fb);
     margin-bottom:250px;
   }
 }
+/*-------------------------- END OF MEDIA QUERIES-----------------------------*/
