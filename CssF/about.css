@@ -12,7 +12,6 @@ background-color: #99c1d2;
   width: 190px;
   height: 30px;
   padding: 5px;
-
    font-family: sans-serif;
 }
 
@@ -22,6 +21,8 @@ text-align: left;
   font-weight: bold;
 font-family: 'Newsreader', serif;
 }
+/*-------------------------- START OF NAVBAR -----------------------------*/
+
 .Nav{
  text-align: center;
 display: inline;
@@ -52,6 +53,8 @@ background-color: #2d5566;
   font-size: 20px; 
 width: 100px;
 }
+/*-------------------------- END OF NAVBAR -----------------------------*/
+
 body{
 background-color: #71a8c0;
   opacity: ;
@@ -98,6 +101,8 @@ text-align:center;
   margin-right: 50%;
 }
 
+/*-------------------------- START OF FOOTER -----------------------------*/
+
 .instagram{
 border-radius:50%;  
 }
@@ -114,7 +119,11 @@ transition: 0.70s;
 font-family: 'Newsreader', serif;
   text-align: center;
 }
+/*-------------------------- END OF FOOTER -----------------------------*/
 
+
+
+/*-------------------------- START OF MEDIA QUERIES -----------------------------*/
 @media screen and (max-width: 1000px){
   .OS{
     width:90%;
@@ -164,3 +173,4 @@ background-color:;
     margin-right: 100px;
   }
 }
+/*-------------------------- END OF MEDIA QUERIES -----------------------------*/
