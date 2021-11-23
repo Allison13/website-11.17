@@ -74,6 +74,7 @@ table{
   box-shadow:2px 2px 2px #2a86df;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10px;
   
 }
 td{
@@ -94,10 +95,15 @@ padding:1px;
 }
 
 .logo{
-border:4px solid #f4faff;
+  display: block;
+ margin-left: auto;
+  margin-right: auto;
+  border:4px solid #f4faff;
   background-color:white;
   border-radius:25%;
+  margin-bottom: 10px;
 }
+
 
 .copyright{
 font-family: 'Newsreader', serif;
