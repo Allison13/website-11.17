@@ -1,3 +1,4 @@
+
 .Nav{
   text-align: center;
 display: inline;
@@ -23,7 +24,6 @@ background-color: #bcd4eb;
   display: inline-block;
 background-color: #0b345d;
     color: white;
-  margin:; 
   padding: 10px;
   text-decoration: none; 
   font-size: 20px; 
@@ -31,13 +31,16 @@ width: 100px;
 }
 
 .logo{
-border:4px solid #f4faff;
+  display: block;
+ margin-left: auto;
+  margin-right: auto;
+  border:4px solid #f4faff;
   background-color:white;
   border-radius:25%;
+  margin-bottom: 10px;
 }
-
 .OS, .contacts{
-    margin: auto;
+    margin: 0 auto;
     background-color:white;
     box-shadow: 2px 2px 0 rgba(0,0,0,.15);
     width:50%;
@@ -65,9 +68,11 @@ color: #000059;
 }
 .header{
 text-align:center;
-  margin:0 auto;
+  margin-left: auto;
+  margin-right: auto;
 border: 4px solid #000045; 
-width: 170px
+width: 170px;
+  margin-top: 10px;
 }
 
 .instagram{
