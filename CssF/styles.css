@@ -131,6 +131,7 @@ background-color:#c1e3ff;
   padding-bottom:6px;
   text-align:left;
   font-family: 'Lora', serif;
+  font-size:20px;
 }
 
 .container{
@@ -201,8 +202,8 @@ footer{
 
 @media screen and (max-width:500px){
   .A-container{
-  margin-left:10%;
-   margin-right:10%;
+  margin-left:5%;
+   margin-right:5%;
 }
 .ds{
     width:260px;
