@@ -16,7 +16,7 @@ background-color: #c4ddf6;
 }
 .bl{ 
   display: inline-block;
-background-color: #165591;
+background-color: #adcae6;
     color: white;
   margin:; 
   padding: 10px;
@@ -36,7 +36,7 @@ background-color: #bcd4eb;
 /*-------------------------- END OF NAVBAR-----------------------------*/
 
 body{
-background-color: #a1caf1; 
+background-color: #c3ddf6; 
 } 
   .OS{
     margin: auto;
@@ -124,26 +124,14 @@ font-family: 'Newsreader', serif;
     height:50px;
   }
 
-@media only screen and (min-width: 900px){
-.os, .OS, .bl{
-  font-size: 30px;
-  }
-      table{
-  font-size: 40px;
-  }
 
-}
-.instagram{
-width: 100px;
-  height: 100px;
-}
 #SA{
 width: 400px;
 }
 }
 @media screen and (min-width: 1025px){
 body{
-background: linear-gradient(#a1caf1, #e5f1fb);
+background: linear-gradient(#c3ddf6, #f6fafe);
     margin-bottom:250px;
   }
 }
