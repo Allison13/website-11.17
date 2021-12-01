@@ -3,7 +3,7 @@ color: #8cb9cc;
   font-family: 'Vollkorn', serif;
 }
 .page-header{
-  color: #a7c9da;
+  color: #99c1d4;
   border: 4px solid #8cb9cc;
     text-align:left top;
   margin-left: auto;
@@ -12,6 +12,7 @@ color: #8cb9cc;
   height: 30px;
   padding: 5px;
    font-family: sans-serif;
+   text-align: center;
 }
 
 .Co-creator, .Me{
@@ -58,7 +59,7 @@ width: 100px;
 /*-------------------------- END OF NAVBAR -----------------------------*/
 
 body{
-background-color: #deebf0;
+background-color: #d1e3ea;
 
 }
 .text{
@@ -100,7 +101,6 @@ transition: 0.70s;
   -o-transition: 0.70s;
   transform:scale(1.05);
 }
-
 .copyright{
 font-family: 'Newsreader', serif;
   text-align: center;
@@ -139,15 +139,15 @@ background-color:;
    border-top-color:lightgray ;
 }
    .Bottom-card{
-    background-color:lightblue;
+    background-color: #a9cad8;
       border-bottom-left-radius:10%;
       border-bottom-right-radius:10%;
     padding-bottom:15px;
   }
   .About-A{
   text-align:center;
-  border:1px solid blue;
-    color:blue; 
+  border:1px solid #284b59;
+    color:#5799b3; 
 }
   footer{
   margin-top: 40px;
@@ -160,4 +160,3 @@ background-color:;
   }
 }
 /*-------------------------- END OF MEDIA QUERIES -----------------------------*/
-
