@@ -51,6 +51,7 @@ background-color: #c3ddf6;
 .page-header{
   text-align:center;
 font-family: 'Vidaloka', serif;
+  color: #73c0ff;
 }
 
 .instagram{
@@ -64,6 +65,7 @@ transition: 0.70s;
   -o-transition: 0.70s;
   transform:scale(1.05);
 }
+
 /*-------------------------- START OF TABLE-----------------------------*/
 table{
   background-color:white;
@@ -97,6 +99,20 @@ font-weight: bold;
 #product{
 padding:1px;
 }
+
+.dsr{
+font-size: 15px;
+}
+.submit{
+  padding:10px;
+  padding-right:10px;
+  margin-top:10px;
+  border-radius:10%;
+  width:200px;
+  color:white;
+  background:#adcae6;
+  border:1px solid #5d96ce;
+}
 /*-------------------------- END OF TABLE-----------------------------*/
 
 .logo{
@@ -129,7 +145,7 @@ font-family: 'Newsreader', serif;
 
 
 #SA{
-width: 400px;
+width: 250px;
 }
 }
 @media screen and (min-width: 1025px){
