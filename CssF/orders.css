@@ -8,7 +8,6 @@ ul{
   list-style-type: none;
 margin:0; 
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
 }
 a:hover{
 background-color: #c4ddf6;
@@ -42,11 +41,11 @@ background-color: #c3ddf6;
     margin: auto;
     background-color:white;
     box-shadow: 5px 5px 2px rgba(0,0,0,.15);
-    width:50%;
+    width:40%;
   padding:20px 20px 20px 20px;
   margin-top:40px;
   height:80%;
-   font-family: 'Open Sans', sans-serif;
+  
   }
 .page-header{
   text-align:center;
@@ -65,7 +64,9 @@ transition: 0.70s;
   -o-transition: 0.70s;
   transform:scale(1.05);
 }
-
+.os{
+margin: 7px;
+}
 /*-------------------------- START OF TABLE-----------------------------*/
 table{
   background-color:white;
@@ -89,7 +90,7 @@ td{
 }
 
 .info{
-font-family: 'Gentium Book Basic', serif;
+  font-family: 'Lora', serif;
 }
 .tablehead{
 font-weight: bold;
